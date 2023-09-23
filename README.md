@@ -2,6 +2,7 @@
 
 ## Control Pico with Caps Lock Key
 
-Control Pico acting as a USB hid keyboard device to a computer with the Caps Lock key on the keyboard.
-Pico can detect the status of the Caps Lock LED and this can be used to control a program.
-The Caps Lock key can be used to start the program, pause the program, etc.
+[code.py] is a CircuitPython program tested on a Pico W.
+The Pico is connected via a USB cable to a computer and acting as a keyboard.
+This program uses the CAPS_LOCK status to control the starting and pausing of the program.
+It may be possible to use NUMS_LOCK as well as an additional control mechanism.
